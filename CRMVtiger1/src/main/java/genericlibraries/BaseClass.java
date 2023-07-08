@@ -56,8 +56,8 @@ public class BaseClass {
 	@AfterMethod(alwaysRun=true)
 	public void logginOut() {
 		System.out.println("logged out");
+	
 		System.out.println("end");
-
 	}
 	@BeforeMethod(alwaysRun=true)
 	public void navigatingToApplication() {
